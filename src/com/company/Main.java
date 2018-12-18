@@ -33,11 +33,6 @@ public class Main {
             e.printStackTrace();
         }
 
-        try {
-            ce1.removeUser("dni");
-        } catch (BankAccountException e) {
-            e.printStackTrace();
-        }
 
     }
 }
